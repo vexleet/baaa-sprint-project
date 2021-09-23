@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Gothic-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/CenturyGothicRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gothic-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/CenturyGothicBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gothic-Italic";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/CenturyGothicItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gothic-BoldItalic";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/CenturyGothicBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Corbel-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/CorbelRegular.ttf") format("truetype");
+}

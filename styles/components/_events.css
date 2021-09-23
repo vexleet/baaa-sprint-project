@@ -1,0 +1,66 @@
+.events {
+    background: #EBE3DA;
+}
+
+.events-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    align-items: center;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.events .vertical-separator {
+    height: 350px;
+}
+
+.events h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #985151;
+}
+
+.events .event {
+    display: flex;
+    align-items: center;
+    border: 1px solid #A45D5D;
+    margin-bottom: 20px;
+}
+
+.event .event-date {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #A45D5D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1px 20px -1px -1px;
+    font-family: "Gothic-Regular", sans-serif;
+}
+
+.event .event-date p {
+    font-size: 0.8rem;
+    width: min-content;
+}
+
+.event .event-name {
+    font-size: 1.1rem;
+}
+
+.own-event {
+    max-width: 350px;
+    text-align: center;
+    height: 245px;
+}
+
+.own-event h2 {
+    margin-bottom: 40px;
+}
+
+.own-event .anchor-button {
+    display: inline-block;
+}
+

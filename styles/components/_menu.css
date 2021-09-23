@@ -1,0 +1,32 @@
+.menu {
+    height: 100vh;
+}
+
+.menu-sections {
+    max-width: 900px;
+    padding: 100px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.menu-section {
+    width: 300px;
+    max-width: 300px;
+}
+
+.menu-section h4{
+    color: #fff;
+    font-family: "Gothic-Bold", sans-serif;
+    font-size: 2rem;
+    margin: 15px 0;
+    white-space: nowrap;
+}
+
+.menu-section li {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}

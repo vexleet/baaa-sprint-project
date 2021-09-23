@@ -1,0 +1,73 @@
+.volunteering {
+    background-color: #F5F0EC;
+}
+
+.volunteering-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.volunteering .volunteering-image-wrapper {
+    position: relative;
+    height: 520px;
+}
+
+.volunteering .volunteering-image-wrapper .volunteering-image {
+    width: 220px;
+    position: relative;
+    z-index: 2;
+}
+
+.volunteering-image-wrapper .volunteering-image.first {
+    border-top: 15px solid #A45D5C;
+    border-left: 15px solid #A45D5C;
+    border-radius: 20px 20px 0 20px;
+}
+
+.volunteering-image-wrapper .volunteering-image.second {
+    position: absolute;
+    left: 90px;
+    top: 100px;
+    border-right: 15px solid #A45D5C;
+    border-bottom: 15px solid #A45D5D;
+    border-radius: 0 20px 20px 20px;
+}
+
+.volunteering-image-wrapper .volunteering-image.third {
+    position: absolute;
+    top: 305px;
+    left: 0;
+    z-index: 0;
+    border-left: 15px solid #A45D5C;
+    border-top: 15px solid #A45D5C;
+    border-radius: 20px 20px 0 20px;
+}
+
+.volunteering .vertical-separator {
+    height: 350px;
+}
+
+.volunteering .volunteering-content {
+    width: 380px;
+}
+
+.volunteering .volunteering-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #985151;
+    text-align: center;
+}
+
+.volunteering .volunteering-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.volunteering .volunteering-content .anchor-button {
+    margin: 0 auto;
+}
