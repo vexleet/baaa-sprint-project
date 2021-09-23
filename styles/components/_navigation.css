@@ -1,0 +1,41 @@
+.navigation {
+    background: #6FB375;
+    text-align: center;
+    padding: 50px;
+}
+
+.navigation ul {
+    position: sticky;
+    top: 50px;
+}
+
+.navigation li {
+    margin-bottom: 15px;
+    font-family: "Gothic-Regular", sans-serif;
+}
+
+.navigation li::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: white;
+    transition: width 0.2s linear;
+    width: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation li:hover::after {
+    width: 100%;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding-bottom: 15px;
+    height: 100%;
+    font-size: 1.2rem;
+}
