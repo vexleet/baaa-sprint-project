@@ -1,12 +1,12 @@
 .navigation {
     background: #6FB375;
     text-align: center;
-    padding: 50px;
+    padding: 150px;
 }
 
 .navigation ul {
     position: sticky;
-    top: 50px;
+    top: 150px;
 }
 
 .navigation li {
