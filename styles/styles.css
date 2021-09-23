@@ -29,6 +29,13 @@ html, body {
     display: block;
     max-width: 200px;
     text-align: center;
+    transition: all 0.3s ease-in;
+    border: 1px solid #A45D5D;
+}
+
+.anchor-button:hover {
+    background: transparent;
+    color: #A45D5D
 }
 
 .vertical-separator {
