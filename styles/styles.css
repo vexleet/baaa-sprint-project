@@ -1,13 +1,13 @@
 @import "fonts.css";
 @import "typography.css";
 
-@import "components/_header.css";
-@import "components/_about-us.css";
-@import "components/_menu.css";
-@import "components/_events.css";
-@import "components/_activities.css";
-@import "components/_volunteering.css";
-@import "components/_contact-us.css";
+@import "./components/_header.css";
+@import "./components/_about-us.css";
+@import "./components/_menu.css";
+@import "./components/_events.css";
+@import "./components/_activities.css";
+@import "./components/_volunteering.css";
+@import "./components/_contact-us.css";
 
 html {
     scroll-behavior: smooth;
