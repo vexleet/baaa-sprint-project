@@ -1,3 +1,15 @@
+@import "fonts.css";
+@import "typography.css";
+
+@import "components/header.css";
+@import "components/about-us.css";
+@import "components/menu.css";
+@import "components/events.css";
+@import "components/activities.css";
+@import "components/volunteering.css";
+@import "components/contact-us.css";
+@import "components/navigation.css";
+
 html {
     scroll-behavior: smooth;
 }
